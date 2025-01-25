@@ -1,0 +1,37 @@
+{
+  "menu": [
+    {
+      "kategori": "makanan",
+      "nama": "chocolatePastry",
+      "img": "img/ChocolatePastry.png"
+    },
+    {
+      "kategori": "makanan",
+      "nama": "cheesePastry",
+      "img": "img/CheesePastry.jpeg"
+    },
+    {
+      "kategori": "makanan",
+      "nama": "beefPastry",
+      "img": "img/BeefPastry.jpeg"
+    },
+    {
+      "kategori": "minuman",
+      "nama": "Kopi'O Brown Sugar",
+      "netto": "500ml",
+      "img": "img/BottleBrownSugar.png"
+    },
+    {
+      "kategori": "minuman",
+      "nama": "Kopi'O Creamy Vanilla",
+      "netto": "500ml",
+      "img": "img/BottleCreamyVanilla.png"
+    },
+    {
+      "kategori": "minuman",
+      "nama": "Choco Brown Sugar",
+      "netto": "500ml",
+      "img": "img/BottleChocoBrownSugar.png"
+    }
+  ]
+}
