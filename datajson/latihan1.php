@@ -1,3 +1,11 @@
+<?php 
+$data = file_get_contents('studycase.json');
+$menu = json_decode($data,true);
+
+$menu = $menu["menu"];
+
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -33,10 +41,11 @@
             <div class="col">
                 <h2>Semua Menu</h2>
             </div>
-        </div>
+        </div> 
         <div class="row mt-3">
+          <?php foreach($menu as $row ): ?>
                 <div class="col-md-4">
-                <div class="card text-white bg-warning " >
+                <div class="card text-white bg-warning mb-3 " >
                     <img class="card-img-top" src="../img/BottleCreamyVanilla.png" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Kopi Ayam Manis </h5>
@@ -46,6 +55,7 @@
                     </div>
                 </div>
              </div>
+             <?php endforeach;?>
             </div>
     </div>
 
