@@ -2,17 +2,17 @@
   "menu": [
     {
       "kategori": "makanan",
-      "nama": "chocolatePastry",
+      "nama": "Chocolate Pastry",
       "img": "img/ChocolatePastry.png"
     },
     {
       "kategori": "makanan",
-      "nama": "cheesePastry",
+      "nama": "Cheese Pastry",
       "img": "img/CheesePastry.jpeg"
     },
     {
       "kategori": "makanan",
-      "nama": "beefPastry",
+      "nama": "Beef Pastry",
       "img": "img/BeefPastry.jpeg"
     },
     {
